@@ -10,7 +10,7 @@ import co.com.park.gp.crosscutting.exceptions.custom.BusinessGPException;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.MessageCatalogStrategy;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.data.CodigoMensaje;
 import co.com.park.gp.data.dao.factory.DAOFactory;
-import co.com.park.gp.dto.CiudadDTO;
+import co.com.park.gp.dto.parqueaderos.CiudadDTO;
 
 public class ConsultarCiudadesFacade implements FacadeWhitReturn<CiudadDTO, List<CiudadDTO>> {
 

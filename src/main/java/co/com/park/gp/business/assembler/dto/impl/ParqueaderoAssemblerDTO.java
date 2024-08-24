@@ -6,7 +6,7 @@ import java.util.List;
 import co.com.park.gp.business.assembler.dto.AssemblerDTO;
 import co.com.park.gp.business.domain.ParqueaderoDomain;
 import co.com.park.gp.crosscutting.helpers.ObjectHelper;
-import co.com.park.gp.dto.ParqueaderoDTO;
+import co.com.park.gp.dto.parqueaderos.ParqueaderoDTO;
 
 public class ParqueaderoAssemblerDTO implements AssemblerDTO<ParqueaderoDomain, ParqueaderoDTO> {
 

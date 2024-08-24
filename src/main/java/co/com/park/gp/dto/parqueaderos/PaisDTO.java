@@ -1,36 +1,38 @@
-package co.com.park.gp.dto;
+package co.com.park.gp.dto.parqueaderos;
 
 import java.util.UUID;
+
 
 import co.com.park.gp.crosscutting.helpers.TextHelper;
 import co.com.park.gp.crosscutting.helpers.UUIDHelper;
 
-public final class ParqueaderoDTO {
+public final class PaisDTO {
 
 	private UUID id;
 	private String nombre;
 
-	public ParqueaderoDTO() {
+	public PaisDTO() {
 		super();
 		setId(UUIDHelper.getDefault());
 		setNombre(TextHelper.EMPTY);
 	}
 
-	public ParqueaderoDTO(final UUID id, final String nombre) {
+	public PaisDTO(final UUID id, final String nombre) {
 		setId(id);
 		setNombre(nombre);
 	}
-	
-	public static final ParqueaderoDTO build() {
-		return new ParqueaderoDTO();
-	}
 
-	public final ParqueaderoDTO setId(final UUID id) {
+	public static final PaisDTO build() {
+		return new PaisDTO();
+	
+	}
+	
+	public final PaisDTO setId(final UUID id) {
 		this.id = UUIDHelper.getDefault(id, UUIDHelper.getDefault());
 		return this;
 	}
 
-	public final ParqueaderoDTO setNombre(final String nombre) {
+	public final PaisDTO setNombre(final String nombre) {
 		this.nombre = TextHelper.applyTrim(nombre);
 		return this;
 	}

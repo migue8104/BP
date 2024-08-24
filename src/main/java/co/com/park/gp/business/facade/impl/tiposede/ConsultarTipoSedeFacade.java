@@ -8,7 +8,7 @@ import co.com.park.gp.business.usecase.impl.tiposede.ConsultarTipoSede;
 import co.com.park.gp.crosscutting.exceptions.GPException;
 import co.com.park.gp.crosscutting.exceptions.custom.BusinessGPException;
 import co.com.park.gp.data.dao.factory.DAOFactory;
-import co.com.park.gp.dto.TipoSedeDTO;
+import co.com.park.gp.dto.parqueaderos.TipoSedeDTO;
 
 public class ConsultarTipoSedeFacade implements FacadeWhitReturn<TipoSedeDTO, List<TipoSedeDTO>> {
 

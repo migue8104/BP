@@ -11,7 +11,7 @@ import co.com.park.gp.controller.response.PaisResponse;
 import co.com.park.gp.crosscutting.exceptions.GPException;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.MessageCatalogStrategy;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.data.CodigoMensaje;
-import co.com.park.gp.dto.PaisDTO;
+import co.com.park.gp.dto.parqueaderos.PaisDTO;
 
 @RestController
 @RequestMapping("/paises/")

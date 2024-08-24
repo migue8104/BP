@@ -6,7 +6,7 @@ import java.util.List;
 import co.com.park.gp.business.assembler.dto.AssemblerDTO;
 import co.com.park.gp.business.domain.PaisDomain;
 import co.com.park.gp.crosscutting.helpers.ObjectHelper;
-import co.com.park.gp.dto.PaisDTO;
+import co.com.park.gp.dto.parqueaderos.PaisDTO;
 
 public final class PaisAssemblerDTO implements AssemblerDTO<PaisDomain, PaisDTO> {
 

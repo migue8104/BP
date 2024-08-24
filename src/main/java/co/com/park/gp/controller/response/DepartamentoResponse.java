@@ -2,7 +2,7 @@ package co.com.park.gp.controller.response;
 
 import java.util.ArrayList;
 
-import co.com.park.gp.dto.DepartamentoDTO;
+import co.com.park.gp.dto.parqueaderos.DepartamentoDTO;
 
 public class DepartamentoResponse extends Response<DepartamentoDTO>{
 

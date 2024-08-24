@@ -11,7 +11,7 @@ import co.com.park.gp.controller.response.TipoSedeResponse;
 import co.com.park.gp.crosscutting.exceptions.GPException;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.MessageCatalogStrategy;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.data.CodigoMensaje;
-import co.com.park.gp.dto.TipoSedeDTO;
+import co.com.park.gp.dto.parqueaderos.TipoSedeDTO;
 @RestController
 @RequestMapping("/tipoSedes/")
 public class TipoSedeController {

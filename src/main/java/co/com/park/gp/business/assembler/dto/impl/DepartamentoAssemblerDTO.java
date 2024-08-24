@@ -7,8 +7,8 @@ import co.com.park.gp.business.assembler.dto.AssemblerDTO;
 import co.com.park.gp.business.domain.DepartamentoDomain;
 import co.com.park.gp.business.domain.PaisDomain;
 import co.com.park.gp.crosscutting.helpers.ObjectHelper;
-import co.com.park.gp.dto.DepartamentoDTO;
-import co.com.park.gp.dto.PaisDTO;
+import co.com.park.gp.dto.parqueaderos.DepartamentoDTO;
+import co.com.park.gp.dto.parqueaderos.PaisDTO;
 
 public final class DepartamentoAssemblerDTO implements AssemblerDTO<DepartamentoDomain, DepartamentoDTO> {
 

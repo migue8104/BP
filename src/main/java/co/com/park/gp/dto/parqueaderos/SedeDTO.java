@@ -1,4 +1,4 @@
-package co.com.park.gp.dto;
+package co.com.park.gp.dto.parqueaderos;
 
 import java.util.UUID;
 

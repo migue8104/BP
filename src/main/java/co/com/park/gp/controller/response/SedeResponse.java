@@ -2,7 +2,7 @@ package co.com.park.gp.controller.response;
 
 import java.util.ArrayList;
 
-import co.com.park.gp.dto.SedeDTO;
+import co.com.park.gp.dto.parqueaderos.SedeDTO;
 
 public class SedeResponse extends Response<SedeDTO>{
 	

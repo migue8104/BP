@@ -14,8 +14,8 @@ import co.com.park.gp.controller.response.DepartamentoResponse;
 import co.com.park.gp.crosscutting.exceptions.GPException;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.MessageCatalogStrategy;
 import co.com.park.gp.crosscutting.exceptions.messageCatalog.data.CodigoMensaje;
-import co.com.park.gp.dto.DepartamentoDTO;
-import co.com.park.gp.dto.PaisDTO;
+import co.com.park.gp.dto.parqueaderos.DepartamentoDTO;
+import co.com.park.gp.dto.parqueaderos.PaisDTO;
 
 @RestController
 @RequestMapping("/departamentos/")

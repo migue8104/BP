@@ -6,7 +6,7 @@ import java.util.List;
 import co.com.park.gp.business.assembler.dto.AssemblerDTO;
 import co.com.park.gp.business.domain.TipoSedeDomain;
 import co.com.park.gp.crosscutting.helpers.ObjectHelper;
-import co.com.park.gp.dto.TipoSedeDTO;
+import co.com.park.gp.dto.parqueaderos.TipoSedeDTO;
 
 public class TipoSedeAssemblerDTO implements AssemblerDTO<TipoSedeDomain, TipoSedeDTO> {
 

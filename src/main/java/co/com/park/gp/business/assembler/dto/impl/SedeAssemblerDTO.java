@@ -11,12 +11,12 @@ import co.com.park.gp.business.domain.ParqueaderoDomain;
 import co.com.park.gp.business.domain.SedeDomain;
 import co.com.park.gp.business.domain.TipoSedeDomain;
 import co.com.park.gp.crosscutting.helpers.ObjectHelper;
-import co.com.park.gp.dto.CiudadDTO;
-import co.com.park.gp.dto.DepartamentoDTO;
-import co.com.park.gp.dto.PaisDTO;
-import co.com.park.gp.dto.ParqueaderoDTO;
-import co.com.park.gp.dto.SedeDTO;
-import co.com.park.gp.dto.TipoSedeDTO;
+import co.com.park.gp.dto.parqueaderos.CiudadDTO;
+import co.com.park.gp.dto.parqueaderos.DepartamentoDTO;
+import co.com.park.gp.dto.parqueaderos.PaisDTO;
+import co.com.park.gp.dto.parqueaderos.ParqueaderoDTO;
+import co.com.park.gp.dto.parqueaderos.SedeDTO;
+import co.com.park.gp.dto.parqueaderos.TipoSedeDTO;
 
 public class SedeAssemblerDTO implements AssemblerDTO<SedeDomain, SedeDTO> {
 
